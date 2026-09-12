@@ -1,4 +1,8 @@
 # Trabajo-Pr-ctico-Grupal---Parte-1
+Trabajo hecho por CodeTeam
+Participantes
+Lucas Mogro
+Barrios Mayra
 # 🌅 Puerto Aurora
 
 > **"Donde termina la tierra, comienza nuestra historia."**
