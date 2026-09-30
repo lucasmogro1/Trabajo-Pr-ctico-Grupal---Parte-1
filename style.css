@@ -1,3 +1,4 @@
+/*  VARIABLES */
 :root {
  --color-primario: #176B87;
  --color-secundario: #64B5C8;
@@ -8,6 +9,7 @@
  --color-blanco: #FFFFFF;
  --color-borde: #D6D0C4;
 }
+/* RESET */
 html{
     font-size: 62.5%;
 }
@@ -17,6 +19,11 @@ html{
  margin: 0;
  padding: 0;
 }
+
+p{
+    text-align: center;
+}
+/* BODY */
 body {
  font-family: 'Poppins', sans-serif;
  font-size: 1.6rem;
@@ -26,6 +33,25 @@ body {
  padding: 0 1rem;
  background-color: var(--color-fondo);
 }
+
+
+
+article,aside{
+    background-color: var(--color-primario);
+}
+
+
+
+
+
+
+/* HEADER */
+header{
+    background-color: var(--color-secundario);
+}
+.Eslogan :hover{
+    background-color: #48CAE4;
+}
 h1{
     color: var(--color-titulos);
     font-size: 5rem;
@@ -33,6 +59,50 @@ h1{
     border: var(--color-titulos); 
     background-color: #FFFFFF;
 }
+
+
+
+
+/* ARTICLE */
+
+.subtitulo{
+    background-color: var(--color-blanco);
+    border: 3px solid var(--color-borde);
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.textosSecundarios{
+    background-color: var(--color-secundario);
+    border: 3px solid var(--color-borde);
+    margin: 4rem;
+}
+#Ciudad{
+    background-color: var(--color-blanco);
+    margin: 40px;
+    border: 3px solid var(--color-borde);
+}
+
+
+.noticia{
+    background-color: var(--color-blanco);
+    border: 3px solid var(--color-borde);
+}
+.parrafoDeNoticia{
+    background-color:var(--color-acento) ;
+    border: 1px solid var(--color-borde);
+    border-radius: 8px;
+    padding: 10px;
+    margin: 40px 0;
+}
+
+.encabezado{
+    background-color: var(--color-blanco);
+    border: 3px solid var(--color-borde);
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+}
+
 h2{
     color: var(--color-titulos);
     font-size: 4rem;
@@ -45,15 +115,7 @@ h3{
     font-size: 3rem;
     text-align: center;
 }
-header{
-    background-color: var(--color-secundario);
-}
-article{
-    background-color: var(--color-primario);
-}
-p{
-    text-align: center;
-}
+
 .listaDeActividades{
     text-align: center;
     list-style-position: inside;
@@ -65,12 +127,4 @@ p{
     padding: 10px;
     margin: 10px 0;
 }
-#Ciudad{
-    background-color: var(--color-blanco);
-    margin: 40px;
-    border: 3px solid var(--color-borde);
-}
 
-.Eslogan :hover{
-    background-color: #48CAE4;
-}
