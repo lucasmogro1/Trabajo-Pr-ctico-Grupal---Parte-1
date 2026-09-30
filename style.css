@@ -1,0 +1,76 @@
+:root {
+ --color-primario: #176B87;
+ --color-secundario: #64B5C8;
+ --color-acento: #E9A23B;
+ --color-fondo: #F4F1EA;
+ --color-texto: #263238;
+ --color-titulos: #123B4A;
+ --color-blanco: #FFFFFF;
+ --color-borde: #D6D0C4;
+}
+html{
+    font-size: 62.5%;
+}
+
+* {
+ box-sizing: border-box;
+ margin: 0;
+ padding: 0;
+}
+body {
+ font-family: 'Poppins', sans-serif;
+ font-size: 1.6rem;
+ line-height: 1.6;
+ max-width: 1100px;
+ margin: 0 auto;
+ padding: 0 1rem;
+ background-color: var(--color-fondo);
+}
+h1{
+    color: var(--color-titulos);
+    font-size: 5rem;
+    text-align: center;
+    border: var(--color-titulos); 
+    background-color: #FFFFFF;
+}
+h2{
+    color: var(--color-titulos);
+    font-size: 4rem;
+    text-align: center;
+
+
+}
+h3{
+    color: var(--color-titulos);
+    font-size: 3rem;
+    text-align: center;
+}
+header{
+    background-color: var(--color-secundario);
+}
+article{
+    background-color: var(--color-primario);
+}
+p{
+    text-align: center;
+}
+.listaDeActividades{
+    text-align: center;
+    list-style-position: inside;
+}
+.Actividades{
+    background-color:var(--color-acento) ;
+    border: 1px solid var(--color-borde);
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px 0;
+}
+#Ciudad{
+    background-color: var(--color-blanco);
+    margin: 40px;
+    border: 3px solid var(--color-borde);
+}
+
+.Eslogan :hover{
+    background-color: #48CAE4;
+}
