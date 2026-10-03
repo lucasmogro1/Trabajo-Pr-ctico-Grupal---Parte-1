@@ -64,6 +64,77 @@ h1{
 
 
 /* ARTICLE */
+.redesSociales {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding: 0;
+    margin: 20px auto;
+}
+
+.redesSociales .rs {
+    margin: 0;
+    padding: 0;
+}
+
+.redesSociales .rs a {
+    display: block;
+    padding: 10px 20px;
+    background-color: var(--color-primario);
+    color: var(--color-blanco);
+    text-decoration: none;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.redesSociales .rs a:hover {
+    background-color: var(--color-acento);
+    color: var(--color-titulos);
+}
+.listas {
+    list-style: none;
+    padding: 0;
+    max-width: 600px;
+    margin: 30px auto;
+}
+
+.listas .sublistas {
+    background-color: var(--color-blanco);
+    border-left: 5px solid var(--color-acento);
+    border-radius: 8px;
+    padding: 12px 15px;
+    margin-bottom: 10px;
+    color: var(--color-texto);
+    border-bottom: 1px solid var(--color-borde);
+}
+dl {
+    background-color: var(--color-blanco);
+    border: 2px solid var(--color-primario);
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 600px;
+    margin: 30px auto;
+}
+
+dt {
+    color: var(--color-titulos);
+    font-weight: bold;
+    margin-top: 15px;
+    border-bottom: 1px solid var(--color-borde);
+    padding-bottom: 5px;
+}
+
+dt:first-child {
+    margin-top: 0;
+}
+
+dd {
+    color: var(--color-texto);
+    margin-left: 20px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
 
 .subtitulo{
     background-color: var(--color-blanco);
@@ -105,14 +176,19 @@ h1{
 
 h2{
     color: var(--color-titulos);
-    font-size: 4rem;
+    font-size: 40px;
     text-align: center;
 
 
 }
 h3{
     color: var(--color-titulos);
-    font-size: 3rem;
+    font-size: 30px;
+    text-align: center;
+}
+h4{
+    color: var(--color-titulos);
+    font-size: 30px;
     text-align: center;
 }
 
